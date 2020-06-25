@@ -1,0 +1,17 @@
+#logo-menu {
+    display: flex;
+    justify-content: center;
+}
+#logo-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo-menu img{
+    width: 45%;
+    height: 45%;
+    margin-bottom: 53px;
+}
