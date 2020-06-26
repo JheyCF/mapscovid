@@ -17,7 +17,7 @@ function Rodape (){
                 <Link to="/contact" className="rcont"> Contate-nos </Link>  
            </div>
            <div id="rodape2">
-                <p>www.mapscovid-19.com.br</p>
+                <p>mapscovid-nab3x70u1.vercel.app</p>
                 <p><FontAwesomeIcon  icon="copyright" />2020Mapscovid-19</p>
            </div>
         </div>
