@@ -25,22 +25,22 @@ function Menu() {
             
             <nav>
                 <ul>
-                    <li  id="back-menu">
+                    <li>
                        <Link to="/">  <FontAwesomeIcon className="fas" icon="home" />
                         <p>Home </p></Link>
                        
                     </li>
-                    <li> 
+                    <li id="back-menu"> 
                        <Link to="/data">  <FontAwesomeIcon className="fas" icon="chart-bar" />
-                        Dados </Link>
+                       <p> Dados</p> </Link>
                     </li>
                     <li>
                        <Link to="/contact"> <FontAwesomeIcon className="fas" icon="comment" />
-                         Contato </Link>   
+                         <p>Contato</p> </Link>   
                     </li>
                     <li> 
                        <Link to="/sobre"> <FontAwesomeIcon className="fas" icon="info-circle" />
-                         Sobre</Link>
+                         <p>Sobre</p></Link>
                     </li>
                 </ul>
             </nav>
@@ -50,13 +50,13 @@ function Menu() {
             {/* Menu responsivo*/}
             <nav>
                 <ul>
-                    <li id="click-responsivo">
+                    <li>
                         <Link to="/"> 
                             <FontAwesomeIcon className="fas" icon="home" />
                         </Link>
                        
                     </li>
-                    <li> 
+                    <li id="click-responsivo"> 
                     <Link to="/data"> <FontAwesomeIcon className="fas" icon="chart-bar" />
                          </Link>
                     </li>

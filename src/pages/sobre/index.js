@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
-
-import Menu from "../../components/Menu"
+import Menu from "../../components/Menu/sobre"
 
 import Rodape from '../../components/Rodape';
 
@@ -31,7 +31,7 @@ function Sobre() {
             <p  className="textsobre">
             Como objetivo futuro pretendemos expandir nossa plataforma para que outras cidades possam se cadastrar como também pretendemos adicionar gráficos para melhorar a exibição dos dados
             </p>
-            <img src={require('./logo.png')} className="logosobre" />
+            <Link to="/"> <img src={require('./logo.png')} className="logosobre" /> </Link>
           </div>
         
         </article>

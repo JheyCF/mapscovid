@@ -1,7 +1,7 @@
 import React from 'react';
 
 import  Logo from '../../components/logo-responsivo/index';
-import Menu from "../../components/Menu"
+import Menu from "../../components/Menu/index"
 import Rodape from '../../components/Rodape';
 
 import "./styles.css"

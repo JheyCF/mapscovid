@@ -21,7 +21,6 @@
 #menu nav ul li{
     margin-bottom: 50px;
     padding: 0 8px;
-    color: #ffffff;
 }
 
 #menu .fas{
@@ -29,9 +28,20 @@
     height: 20px;
 }
 
+#back-menu .fas{
+    color: #ffffff;
+    font-weight: bold;
+
+}
+#back-menu p{
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
 #menu nav ul li a{
     display: flex;
-    color: #e9e9f0;
+    color: #e9e9f0a6;
     padding-top: 30px;
     font-size: 15px;
     padding-left: 10px;
@@ -95,13 +105,16 @@
         width: 100%;
     }
     #responsivo .fas{
-        color: white;
+        color: rgba(255, 255, 255, 0.582);
         font-size: 70px;
         position: relative;
         padding: 1px 0;
         justify-content: space-between;
         width: 40%;
         top: -15%;
+    }
+    #click-responsivo .fas{
+        color: #ffffff;
     }
    
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Logo from '../../components/logo-responsivo/index';
 
-import Menu from "../../components/Menu"
+import Menu from "../../components/Menu/dados"
 
 import Rodape from '../../components/Rodape';
 
