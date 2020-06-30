@@ -45,18 +45,21 @@ class Data extends Component {
                             Sousa <FontAwesomeIcon className="icon" icon="map-marker-alt" />
                             </a></p>
                             <div>
+                            <div className="logo-responsiva-cont">
+                                    <Logo />
+                                </div>
                                 <p>
                                     Cidade do Estado da Paraíba. Os habitantes se chamam sousenses.
                                     O município se estende por 738,5 km² e contava com 69 444 habitantes no último censo.
                                     A densidade demográfica é de 94 habitantes por km² no território do município.    
                                 </p>
+                                
                                 <div className="fonte">
                                 <p>
                                     Fonte: acesso em 29/06/2020. Disponível em: https://www.cidade-brasil.com.br/municipio-sousa.html 
                                 </p>
                                 </div>
                             </div>
-                            <Logo />
 
                         </div>
 

@@ -81,6 +81,10 @@
         align-items: center;
         justify-content: center;
     }
+
+    .logo-responsiva-cont{
+        margin-top: 12px;
+    }
     .cardcontato{
         width: 100%;
         height: 500px;

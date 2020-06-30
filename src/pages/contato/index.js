@@ -23,12 +23,17 @@ function Contact() {
           <Menu />
         </div>
       </nav>
+      <div className="logo-responsiva-cont">
+        <Logo />
+      </div>
+      
       <main id="maincontato">
+      
+
         <article>
 
 
           <div className="cardcontato">
-            <Logo />
 
             <h1>Contatos</h1>
             <ul>

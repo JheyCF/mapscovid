@@ -119,10 +119,11 @@
 
 .source{
     font-size: 12px;
+    color: #000000;
 }
 
 .source a:visited{
-    color: #000000;
+    color: #20275f;
 }
 
 #barra{
