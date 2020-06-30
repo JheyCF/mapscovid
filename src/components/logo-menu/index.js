@@ -6,7 +6,7 @@ import "./styles.css";
 function Logo (){
     return (
         <div id="logo-menu">
-           <Link to="/"> <img src={require('./logo.png')} /> </Link>
+            <img src={require('./logo.png')} />
         </div>
     );
 }
