@@ -41,14 +41,20 @@ class Data extends Component {
 
                         <div id="cities">
                             <h2>Cidade:</h2>
-                            <p><a href="https://www.google.com/maps/place/Sousa+-+PB/@-6.7524445,-38.372371,11z/data=!3m1!4b1!4m5!3m4!1s0x7a4595b2cfc0e75:0xbc77f410fe1dd9f1!8m2!3d-6.7625254!4d-38.224935" target="blank">
-                                JheyCFlândia <FontAwesomeIcon className="icon" icon="map-marker-alt" />
+                            <p><a href="https://www.google.com/maps/place/Sousa+-+PB/@-6.7524445,-38.3723728,11z/data=!3m1!4b1!4m5!3m4!1s0x7a4595b2cfc0e75:0xbc77f410fe1dd9f1!8m2!3d-6.7625254!4d-38.224935" target="blank">
+                            Sousa <FontAwesomeIcon className="icon" icon="map-marker-alt" />
                             </a></p>
                             <div>
-                                <p>Lorem ipsum dolor sente-se no meio, consectetur elip
-                                    adipiscing. Mecenas cuidado é um desenvolvedor
-                                    de elementos de proteína.
-                            </p>
+                                <p>
+                                    Cidade do Estado da Paraíba. Os habitantes se chamam sousenses.
+                                    O município se estende por 738,5 km² e contava com 69 444 habitantes no último censo.
+                                    A densidade demográfica é de 94 habitantes por km² no território do município.    
+                                </p>
+                                <div className="fonte">
+                                <p>
+                                    Fonte: acesso em 29/06/2020. Disponível em: https://www.cidade-brasil.com.br/municipio-sousa.html 
+                                </p>
+                                </div>
                             </div>
                             <Logo />
 
@@ -88,7 +94,6 @@ class Data extends Component {
                             <h2>Bairros Confirmados</h2>
                            <BairrosConfirm /> 
                         </div>
-
 
                     </article>
                 </main>
